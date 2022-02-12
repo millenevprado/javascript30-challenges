@@ -13,7 +13,7 @@ body {
   width: 100vw;
   max-width: 100%;
   height: 26rem;
-  background-color: #F7F7F7;
+  background-color: #181818;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -24,57 +24,65 @@ body {
           align-items: center;
 }
 
-.header .left-container {
-  background-image: url(img/undraw_coder.svg);
-  background-size: cover;
-  background-position: top;
-  width: 50%;
-  height: 90%;
+.header .main-container {
+  color: #DDDDDD;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
-.header .right-container {
-  width: 50%;
-  color: #2F2E41;
+.header .main-container img {
+  width: 16rem;
+  height: 16rem;
+  margin-right: 1rem;
 }
 
-.header .right-container .inner-container {
+.header .main-container .inner-container {
   padding: 0.3rem 1.2rem;
   max-width: 100%;
 }
 
-.header .right-container .inner-container h1 {
-  font-size: 2.5rem;
+.header .main-container .inner-container h1 {
+  font-size: 3rem;
   font-weight: 800;
   letter-spacing: 0.3rem;
   margin-bottom: 1.2rem;
   text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
 }
 
-.header .right-container .inner-container h4 {
+.header .main-container .inner-container h4 {
   font-weight: 600;
 }
 
-.header .right-container .inner-container p {
+.header .main-container .inner-container p {
   font-size: 1.1rem;
   font-weight: 400;
   margin-bottom: 1.4rem;
 }
 
-.header .right-container .inner-container a {
-  color: #FFC600;
+.header .main-container .inner-container a {
+  color: #FFDE25;
   text-decoration: none;
   font-weight: 600;
 }
 
-.header .right-container .inner-container .btn-black {
-  background: #2F2E41;
-  color: #F7F7F7;
+.header .main-container .inner-container .btn-black {
+  background: #E9CA32;
+  color: #181818;
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
 }
 
-.header .right-container .inner-container .btn-black:hover {
-  color: #FFC600;
+.header .main-container .inner-container .btn-black:hover {
+  background-color: #DDDDDD;
+  color: #181818;
+}
+
+main {
+  background-color: #252525;
 }
 
 #list {
@@ -96,6 +104,7 @@ body {
   -webkit-box-shadow: 0px 4px 40px 0px rgba(0, 0, 0, 0.15);
           box-shadow: 0px 4px 40px 0px rgba(0, 0, 0, 0.15);
   border-radius: 0.3rem;
+  background-color: #181818;
   margin: 1.2rem;
   width: 18rem;
   -webkit-transition: all 0.3s ease;
@@ -108,13 +117,13 @@ body {
 }
 
 #list li a {
-  color: #2F2E41;
+  color: #FFC600;
   font-size: 1.1rem;
   text-decoration: none;
 }
 
 #list li a:hover {
-  color: #FFC600;
+  color: #DDDDDD;
 }
 
 #list li img {
@@ -140,10 +149,10 @@ body {
 }
 
 footer {
-  background-color: #2F2E41;
-  color: #F7F7F7;
-  font-size: 14px;
-  padding: 10px;
+  background-color: #181818;
+  color: #DDDDDD;
+  font-size: 1rem;
+  padding: 1.4rem;
   text-align: center;
   margin-top: auto;
 }
@@ -156,20 +165,22 @@ footer a {
   color: #FFC600;
   text-decoration: none;
   font-weight: 600;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
 }
 
 footer a:hover {
-  color: white;
+  color: #DDDDDD;
 }
 
 @media screen and (max-width: 830px) {
-  .left-container {
-    display: none;
-  }
   .header {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
+  }
+  .header img {
+    display: none;
   }
   .header .inner-container {
     display: -webkit-box;
