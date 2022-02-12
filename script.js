@@ -32,7 +32,7 @@ projects.forEach((project) => {
   div.innerText = project;
 
   const img = document.createElement('img');
-  img.src = `/${project}/img.png`
+  img.src = `../${project}/img.png`
 
   link.prepend(img);
   link.append(div);
