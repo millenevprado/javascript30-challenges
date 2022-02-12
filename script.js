@@ -24,12 +24,12 @@ const projects = [
 
 const list = document.getElementById('list');
 
-projects.forEach((project) => {
+projects.forEach((project, i) => {
   const listItem = document.createElement('li');
   const link = document.createElement('a');
   const div = document.createElement('div');
   link.href = `./${project}/index.html`;
-  div.innerText = project;
+  div.innerText = `${i + 1}. ${project.split('-').join(' ')}`;
 
   const img = document.createElement('img');
   img.src = `./${project}/img.png`
