@@ -13,29 +13,37 @@ body {
   width: 100vw;
   max-width: 100%;
   height: 26rem;
-  background-color: #F7F7F7;
+  background-color: #181818;
   display: flex;
   justify-content: space-around;
   align-items: center;
 
-  .left-container {
-    background-image: url(img/undraw_coder.svg);
-    background-size: cover;
-    background-position: top;
-    width: 50%;
-    height: 90%;
-  }
+  // .left-container {
+  //   background-image: url(img/undraw_coder.svg);
+  //   background-size: cover;
+  //   background-position: top;
+  //   width: 50%;
+  //   height: 90%;
+  // }
 
-  .right-container {
-    width: 50%;
-    color: #2F2E41;
+  .main-container {
+    // width: 50%;
+    color: #DDDDDD;
+    display: flex;
+    align-items: center;
+
+    img {
+      width: 16rem;
+      height: 16rem;
+      margin-right: 1rem;
+    }
 
     .inner-container {
       padding: 0.3rem 1.2rem;
       max-width: 100%;
 
       h1 {
-        font-size: 2.5rem;
+        font-size: 3rem;
         font-weight: 800;
         letter-spacing: 0.3rem;
         margin-bottom: 1.2rem;
@@ -53,22 +61,27 @@ body {
       }
 
       a {
-        color: #FFC600;
+        color: #FFDE25;
         text-decoration: none;
         font-weight: 600;
       }
 
       .btn-black {
-        background: #2F2E41;
-        color: #F7F7F7;
+        background: #E9CA32;
+        color: #181818;
         transition: all 0.3s ease-in-out;
 
         &:hover {
-          color: #FFC600;
+          background-color: #DDDDDD;
+          color: #181818;
         }
       }
     }
   }
+}
+
+main {
+  background-color: #252525;
 }
 
 #list {
@@ -76,14 +89,14 @@ body {
   flex-wrap: wrap;
   justify-content: center;
   list-style-type: none;
-  padding: 0;
-  // padding-left: 0 !important;
+  padding: 1.2rem;
   margin: 0;
   text-align: center;
 
   li {
     box-shadow: 0px 4px 40px 0px rgba(0, 0, 0, 0.15);
     border-radius: 0.3rem;
+    background-color: #181818;
     margin: 1.2rem;
     width: 18rem;
     transition: all 0.3s ease;
@@ -92,11 +105,11 @@ body {
     }
 
     a {
-      color: #2F2E41;
+      color: #FFC600;
       font-size: 1.1rem;
       text-decoration: none;
       &:hover {
-        color: #FFC600;
+        color: #DDDDDD;
       }
     }
 
@@ -118,12 +131,11 @@ body {
 
 }
 
-
 footer {
-  background-color: #2F2E41;
-  color: #F7F7F7;
-  font-size: 14px;
-  padding: 10px;
+  background-color: #181818;
+  color: #DDDDDD;
+  font-size: 1rem;
+  padding: 1.4rem;
   text-align: center;
   margin-top: auto;
   .fa-heart {
@@ -133,19 +145,20 @@ footer {
     color: #FFC600;
     text-decoration: none;
     font-weight: 600;
+    transition: all 0.3s ease-in-out;
   }
   a:hover {
-    color: white;
+    color: #DDDDDD;
   }
 }
 
-
 @media screen and (max-width: 830px) {
-  .left-container {
-    display: none;
-  }
   .header {
     justify-content: center;
+
+    img {
+      display: none;
+    }
 
     .inner-container {
       display: flex;
