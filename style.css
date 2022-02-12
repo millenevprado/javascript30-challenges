@@ -87,7 +87,7 @@ body {
       -ms-flex-pack: center;
           justify-content: center;
   list-style-type: none;
-  padding: 0;
+  padding: 1.2rem;
   margin: 0;
   text-align: center;
 }
