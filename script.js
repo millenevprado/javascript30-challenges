@@ -28,11 +28,11 @@ projects.forEach((project) => {
   const listItem = document.createElement('li');
   const link = document.createElement('a');
   const div = document.createElement('div');
-  link.href = `/${project}/index-FINISHED`;
+  link.href = `./${project}/index.html`;
   div.innerText = project;
 
   const img = document.createElement('img');
-  img.src = `/${project}/img.png`
+  img.src = `./${project}/img.png`
 
   link.prepend(img);
   link.append(div);
