@@ -28,7 +28,7 @@ projects.forEach((project) => {
   const listItem = document.createElement('li');
   const link = document.createElement('a');
   const div = document.createElement('div');
-  link.href = `/${project}/index-FINISHED.html`;
+  link.href = `javascript30-challenges/${project}/index-FINISHED.html`;
   div.innerText = project;
 
   const img = document.createElement('img');
