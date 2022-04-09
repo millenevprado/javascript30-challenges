@@ -15,66 +15,46 @@ body {
   height: 26rem;
   background-color: #181818;
   display: flex;
-  justify-content: space-around;
   align-items: center;
+  justify-content: center;
 
-  // .left-container {
-  //   background-image: url(img/undraw_coder.svg);
-  //   background-size: cover;
-  //   background-position: top;
-  //   width: 50%;
-  //   height: 90%;
-  // }
-
-  .main-container {
-    // width: 50%;
+  .inner-container {
     color: #DDDDDD;
-    display: flex;
-    align-items: center;
+    padding: 0.3rem 1.2rem;
+    width: 38%;
 
-    img {
-      width: 16rem;
-      height: 16rem;
-      margin-right: 1rem;
+    h1 {
+      font-size: 3rem;
+      font-weight: 800;
+      letter-spacing: 0.3rem;
+      margin-bottom: 1.2rem;
+      text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
     }
 
-    .inner-container {
-      padding: 0.3rem 1.2rem;
-      max-width: 100%;
+    h4 {
+      font-weight: 600;
+    }
 
-      h1 {
-        font-size: 3rem;
-        font-weight: 800;
-        letter-spacing: 0.3rem;
-        margin-bottom: 1.2rem;
-        text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
-      }
+    p {
+      font-size: 1.1rem;
+      font-weight: 400;
+      margin-bottom: 1.4rem;
+    }
 
-      h4 {
-        font-weight: 600;
-      }
+    a {
+      color: #FFDE25;
+      text-decoration: none;
+      font-weight: 600;
+    }
 
-      p {
-        font-size: 1.1rem;
-        font-weight: 400;
-        margin-bottom: 1.4rem;
-      }
+    .btn-black {
+      background: #E9CA32;
+      color: #181818;
+      transition: all 0.3s ease-in-out;
 
-      a {
-        color: #FFDE25;
-        text-decoration: none;
-        font-weight: 600;
-      }
-
-      .btn-black {
-        background: #E9CA32;
+      &:hover {
+        background-color: #DDDDDD;
         color: #181818;
-        transition: all 0.3s ease-in-out;
-
-        &:hover {
-          background-color: #DDDDDD;
-          color: #181818;
-        }
       }
     }
   }
@@ -152,20 +132,19 @@ footer {
   }
 }
 
-@media screen and (max-width: 830px) {
+
+@media screen and (max-width: 800px) {
   .header {
-    justify-content: center;
-
-    img {
-      display: none;
-    }
-
     .inner-container {
-      display: flex;
-      flex-direction: column;
-      justify-items: center;
-      align-items: center;
+      width: 100%;
     }
   }
+}
 
+@media screen and (max-width: 1220px) {
+  .header {
+    .inner-container {
+      width: 70%;
+    }
+  }
 }
