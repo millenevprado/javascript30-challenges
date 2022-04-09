@@ -33,3 +33,4 @@ List of completed challenges:
 - [x] [Webcan Fun](https://github.com/millenevprado/javascript30-challenges/tree/master/Webcam-Fun)
 - [x] [Speech Detection](https://github.com/millenevprado/javascript30-challenges/tree/master/Speech-Detection)
 - [x] [Geolocation](https://github.com/millenevprado/javascript30-challenges/tree/master/Geolocation)
+- [x] [Follow Along Link Highlighter](https://github.com/millenevprado/javascript30-challenges/tree/master/Follow-Along-Link-Highlighter)
