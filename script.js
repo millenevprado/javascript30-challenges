@@ -19,7 +19,8 @@ const projects = [
   'Adding-Up-Times-with-Reduce',
   'Webcam-Fun',
   'Speech-Detection',
-  'Geolocation'
+  'Geolocation',
+  'Follow-Along-Link-Highlighter'
 ];
 
 const list = document.getElementById('list');
