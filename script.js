@@ -20,7 +20,8 @@ const projects = [
   'Webcam-Fun',
   'Speech-Detection',
   'Geolocation',
-  'Follow-Along-Link-Highlighter'
+  'Follow-Along-Link-Highlighter',
+  'Speech-Synthesis'
 ];
 
 const list = document.getElementById('list');
