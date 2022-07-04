@@ -21,7 +21,8 @@ const projects = [
   'Speech-Detection',
   'Geolocation',
   'Follow-Along-Link-Highlighter',
-  'Speech-Synthesis'
+  'Speech-Synthesis',
+  'Sticky-Nav'
 ];
 
 const list = document.getElementById('list');
