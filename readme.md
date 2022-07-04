@@ -35,3 +35,5 @@ List of completed challenges:
 - [x] [Geolocation](https://github.com/millenevprado/javascript30-challenges/tree/master/Geolocation)
 - [x] [Follow Along Link Highlighter](https://github.com/millenevprado/javascript30-challenges/tree/master/Follow-Along-Link-Highlighter)
 - [x] [Speech Synthesis](https://github.com/millenevprado/javascript30-challenges/tree/master/Speech-Synthesis)
+- [x] [Sticky Nav](https://github.com/millenevprado/javascript30-challenges/tree/master/Sticky-Nav)
+
