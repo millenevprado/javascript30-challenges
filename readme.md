@@ -36,4 +36,4 @@ List of completed challenges:
 - [x] [Follow Along Link Highlighter](https://github.com/millenevprado/javascript30-challenges/tree/master/Follow-Along-Link-Highlighter)
 - [x] [Speech Synthesis](https://github.com/millenevprado/javascript30-challenges/tree/master/Speech-Synthesis)
 - [x] [Sticky Nav](https://github.com/millenevprado/javascript30-challenges/tree/master/Sticky-Nav)
-
+- [x] [Event Capture Propagation Bubbling and Once](https://github.com/millenevprado/javascript30-challenges/tree/master/Event-Capture-Propagation-Bubbling-and-Once)
