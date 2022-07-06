@@ -22,7 +22,8 @@ const projects = [
   'Geolocation',
   'Follow-Along-Link-Highlighter',
   'Speech-Synthesis',
-  'Sticky-Nav'
+  'Sticky-Nav',
+  'Event-Capture-Propagation-Bubbling-and-Once'
 ];
 
 const list = document.getElementById('list');
