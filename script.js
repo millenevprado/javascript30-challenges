@@ -23,7 +23,8 @@ const projects = [
   'Follow-Along-Link-Highlighter',
   'Speech-Synthesis',
   'Sticky-Nav',
-  'Event-Capture-Propagation-Bubbling-and-Once'
+  'Event-Capture-Propagation-Bubbling-and-Once',
+  'Stripe-Follow-Along-Nav'
 ];
 
 const list = document.getElementById('list');
