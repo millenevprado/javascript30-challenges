@@ -24,7 +24,8 @@ const projects = [
   'Speech-Synthesis',
   'Sticky-Nav',
   'Event-Capture-Propagation-Bubbling-and-Once',
-  'Stripe-Follow-Along-Nav'
+  'Stripe-Follow-Along-Nav',
+  'Click-and-Drag'
 ];
 
 const list = document.getElementById('list');
