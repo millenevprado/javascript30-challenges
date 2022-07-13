@@ -25,7 +25,8 @@ const projects = [
   'Sticky-Nav',
   'Event-Capture-Propagation-Bubbling-and-Once',
   'Stripe-Follow-Along-Nav',
-  'Click-and-Drag'
+  'Click-and-Drag',
+  'Video-Speed-Controller'
 ];
 
 const list = document.getElementById('list');
