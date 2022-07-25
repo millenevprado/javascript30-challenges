@@ -26,7 +26,8 @@ const projects = [
   'Event-Capture-Propagation-Bubbling-and-Once',
   'Stripe-Follow-Along-Nav',
   'Click-and-Drag',
-  'Video-Speed-Controller'
+  'Video-Speed-Controller',
+  'Countdown-Timer'
 ];
 
 const list = document.getElementById('list');
