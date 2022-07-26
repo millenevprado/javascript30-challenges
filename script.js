@@ -27,7 +27,8 @@ const projects = [
   'Stripe-Follow-Along-Nav',
   'Click-and-Drag',
   'Video-Speed-Controller',
-  'Countdown-Timer'
+  'Countdown-Timer',
+  'Whack-A-Mole'
 ];
 
 const list = document.getElementById('list');
