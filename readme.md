@@ -41,3 +41,4 @@ List of completed challenges:
 - [x] [Click and Drag](https://github.com/millenevprado/javascript30-challenges/tree/master/Click-and-Drag)
 - [x] [Video Speed Controller](https://github.com/millenevprado/javascript30-challenges/tree/master/Video-Speed-Controller)
 - [x] [Countdown Timer](https://github.com/millenevprado/javascript30-challenges/tree/master/Countdown-Timer)
+- [x] [Whack a Mole](https://github.com/millenevprado/javascript30-challenges/tree/master/Whack-A-Mole)
